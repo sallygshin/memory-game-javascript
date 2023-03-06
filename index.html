@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game with Javascript</title>
+
+    <link rel="icon" type="image/png" href="./img/favicon.png" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script defer src="./js/app.js"></script>
+  </head>
+  <body>
+    <main class="game">
+      <section class="wrapper">
+        <header class="stats-container">
+          <button type="button" class="btn start-btn">Start</button>
+          <div>
+            <h3>Level:</h3>
+            <h4 class="level">1</h4>
+          </div>
+          <div>
+            <h3>Moves:</h3>
+            <h4 class="moves">0</h4>
+          </div>
+          <div>
+            <h3>Time:</h3>
+            <h4 class="timer">0:00</h4>
+          </div>
+          <div>
+            <h3>Pairs:</h3>
+            <h4 class="pairs-matched">0 / 4</h4>
+          </div>
+        </header>
+        <section class="board-container">
+          <div class="board" data-pairs="4"></div>
+          <div class="win">Congrats!</div>
+        </section>
+        <div class="button-container">
+          <button class="btn home-btn">Back to start</button>
+          <button class="btn replay-btn">Replay</button>
+        </div>
+        <section class="game-log-container">
+          <ul class="game-log">
+            <li>Hi there! Press start or click any card to begin the game.</li>
+          </ul>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
