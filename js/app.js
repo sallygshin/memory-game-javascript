@@ -41,7 +41,7 @@ const shuffledCards = (array) => {
   return clonedArray;
 };
 
-// selecting specific num of unique cards (depending on level/dimensions)
+// selecting specific num of random cards (depending on level/dimensions)
 const pickRandom = (array, numItems) => {
   const clonedArray = [...array];
   const randomPicks = [];
